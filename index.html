@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/7692/7692809.png">
+</head>
+<body>
+    <div id="container">
+        <div id="ToDoList">
+            <h1>ToDo List 📝</h1>
+                <div id="input">
+                    <input type="text" id="ingreso" placeholder="Add you task">
+                    <button id="agregar" onclick="agregar()">Add</button>
+                </div>
+                <ul id="lista"></ul>
+                <button id="masRapido" onclick="CalculoMasRapido()">¿Qué tarea fue realizada más rápidamente?</button>
+        </div>        
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
